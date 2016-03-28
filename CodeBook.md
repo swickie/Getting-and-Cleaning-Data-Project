@@ -22,4 +22,32 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 5) The new tidy datafile was created. 
 
 ## Description of the variables in the tidy datafile 
-### Subject
+- "subject" is the number id of a particular volunteer studied
+- "activity" describes the activity that volunteer was performing 
+- "timeBodyAccelerometerMean()-X", "timeBodyAccelerometerMean()-Y" & "timeBodyAccelerometerMean()-Z" describes the mean of the three-dimensional time body domain Accelerometer signals 
+- "timeBodyAccelerometerStdDev()-X", "timeBodyAccelerometerStdDev()-Y" & "timeBodyAccelerometerStdDev()-Z" describes the standard deviation of the three-dimensional time body domain Accelerometer signals 
+- "timeGravityAccelerometerMean()-X", "timeGravityAccelerometerMean()-Y" & "timeGravityAccelerometerMean()-Z" describes the mean of the three-dimensional time gravity domain Accelerometer signals
+- "timeGravityAccelerometerStdDev()-X", "timeGravityAccelerometerStdDev()-Y" & "timeGravityAccelerometerStdDev()-Z" describes the standard deviation of the three-dimensional time gravity domain Accelerometer signals
+- "timeBodyAccelerometerJerkMean()-X", "timeBodyAccelerometerJerkMean()-Y" & "timeBodyAccelerometerJerkMean()-Z" describes the mean of the three-dimensional time body domain Accelerometer Jerk signals
+- "timeBodyAccelerometerJerkStdDev()-X", "timeBodyAccelerometerJerkStdDev()-Y" & "timeBodyAccelerometerJerkStdDev()-Z" describes the standard deviation of the three-dimensional time body domain Accelerometer Jerk signals
+- "timeBodyGyroMean()-X", "timeBodyGyroMean()-Y" & "timeBodyGyroMean()-Z" describes the mean of the three-dimensional time body domain Gyroscope signals 
+- "timeBodyGyroStdDev()-X", "timeBodyGyroStdDev()-Y" & "timeBodyGyroStdDev()-Z" describes the standard deviation of the three-dimensional time body domain Gyroscope signals 
+- "timeBodyGyroJerkMean()-X", "timeBodyGyroJerkMean()-Y" & "timeBodyGyroJerkMean()-Z" describes the mean of the three-dimensional time body domain Gyroscope jerk signals
+- "timeBodyGyroJerkStdDev()-X", "timeBodyGyroJerkStdDev()-Y" & "timeBodyGyroJerkStdDev()-Z" describes the standard deviation of the three-dimensional time body domain Gyroscope jerk signals
+- "timeBodyAccelerometerMagnitudeMean()" & "timeBodyAccelerometerMagnitudeStdDev()" describes the mean and standard deviation of the time body domain Accelerometer Magnitude signals 
+- "timeGravityAccelerometerMagnitudeMean()" & "timeGravityAccelerometerMagnitudeStdDev()" describes the mean and standard deviation of the time gravity domain Accelerometer Magnitude signals 
+- "timeBodyAccelerometerJerkMagnitudeMean()" & "timeBodyAccelerometerJerkMagnitudeStdDev()" describes the mean and standard deviation of the time body domain Accelerometer jerk Magnitude signals 
+- "timeBodyGyroMagnitudeMean()" & "timeBodyGyroMagnitudeStdDev()" describes the mean and standard deviation of the time body domain Gyroscope Magnitude signals
+- "timeBodyGyroJerkMagnitudeMean()" & "timeBodyGyroJerkMagnitudeStdDev()" describes the mean and standard deviation of the time body domain Gyroscope Magnitude jerk signals
+- "frequencyBodyAccelerometerMean()-X", "frequencyBodyAccelerometerMean()-Y" & "frequencyBodyAccelerometerMean()-Z" describes the mean of the three-dimensional frequency body domain Accelerometer signals
+- "frequencyBodyAccelerometerStdDev()-X", "frequencyBodyAccelerometerStdDev()-Y" & "frequencyBodyAccelerometerStdDev()-Z" describes the standard deviation of the three-dimensional frequency body domain Accelerometer signals
+- "frequencyBodyAccelerometerJerkMean()-X", "frequencyBodyAccelerometerJerkMean()-Y" & "frequencyBodyAccelerometerJerkMean()-Z" describes the mean of the three-dimensional frequency body domain Accelerometer jerk signals
+- "frequencyBodyAccelerometerJerkStdDev()-X", "frequencyBodyAccelerometerJerkStdDev()-Y" & "frequencyBodyAccelerometerJerkStdDev()-Z" describes the standard deviation of the three-dimensional frequency body domain Accelerometer jerk signals 
+- "frequencyBodyGyroMean()-X", "frequencyBodyGyroMean()-Y" & "frequencyBodyGyroMean()-Z" describes the mean of the three-dimensional frequency body domain Gyroscope signals
+- "frequencyBodyGyroStdDev()-X", "frequencyBodyGyroStdDev()-Y" & "frequencyBodyGyroStdDev()-Z" describes the standard deviation of the three-dimensional frequency body domain Gyroscope signals 
+- "frequencyBodyAccelerometerMagnitudeMean()" & "frequencyBodyAccelerometerMagnitudeStdDev()" describes the mean and standard deviation of the frequency body domain Accelerometer Magnitude signals
+- "frequencyBodyAccelerometerJerkMagnitudeMean()" & "frequencyBodyAccelerometerJerkMagnitudeStdDev()" describes the mean and standard deviation of the frequency body domain Accelerometer Magnitude jerk signals
+- "frequencyBodyGyroMagnitudeMean()" & "frequencyBodyGyroMagnitudeStdDev()" describes the mean and standard deviation of the frequency body domain Gyroscope Magnitude signals
+- "frequencyBodyGyroJerkMagnitudeMean()" & "frequencyBodyGyroJerkMagnitudeStdDev()" describes the mean and standard deviation of the frequency body domain Gyroscope Magnitude jerk signals
+
+## Description of the variables in run_analysis script
