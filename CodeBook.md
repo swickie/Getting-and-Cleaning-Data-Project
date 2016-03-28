@@ -51,3 +51,12 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 - "frequencyBodyGyroJerkMagnitudeMean()" & "frequencyBodyGyroJerkMagnitudeStdDev()" describes the mean and standard deviation of the frequency body domain Gyroscope Magnitude jerk signals
 
 ## Description of the variables in run_analysis script
+- "activityLabels" & "features" store data from the main folder in the dataset
+- "subjectTrain", "xTrain" & "yTrain" store data from the Training data set, subject IDs, test set, and test labels. 
+- "subjectTest", "xTest" & "yTest" store data from the Test data set, subject IDs, test set, and test labels.
+- "dataSubject", "dataActivity", "dataFeatures" store the merged Training and Test data for subject IDs, test set, and test labels.
+- "dataMerged" stores the completely merged Training and Test data. 
+- "dataComplete" stores the complelely merged Training and Test data with the data feature labels. 
+- "dataFeatures_subset" stores the selected feature data. 
+- "dataComplete_subset" stores the subsetted data. 
+- "dataTidy" stores the clean data set. 
